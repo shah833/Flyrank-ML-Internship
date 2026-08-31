@@ -2,7 +2,7 @@
 
 - **Author**: Abdullah shah
 - **Lane**: Refresh/Content Opportunity Scoring
-- **Repo** :https://github.com/shah833/Flyrank-ML-Internship
+- **Repo** :[https://github.com/shah833/Flyrank-ML-Internship](https://github.com/shah833/Flyrank-ML-Internship)
 - **Date**:30/8/2026
 
 ## 0. Abstract
