@@ -1,8 +1,9 @@
+# Refresh & Content Opportunity Scoring: Rule-Based vs. Machine Learning Prioritization
 
-- **Author:*Abdullah shah*
-- **Lane:*Refresh/Content Opportunity Scoring*
-- **Repo:*https://github.com/shah833/Flyrank-ML-Internship*
-- **Date:*30/8/2026*
+- **Author**: Abdullah shah
+- **Lane**: Refresh/Content Opportunity Scoring
+- **Repo** :https://github.com/shah833/Flyrank-ML-Internship
+- **Date**:30/8/2026
 
 ## 0. Abstract
 
@@ -81,7 +82,9 @@ Limits: the system currently only flags one type of problem. Detecting other iss
 ## 8. Reproducibility
 
 1) git clone https://github.com/shah833/Flyrank-ML-Internship
+
 2) pip install -r requirements.txt
+
 3) Run the notebooks in order: w03_data_contract.ipynb (verifies the warehouse data) → w04_baseline_score.ipynb (builds the baseline rule, writes work/outputs/baseline_action_score.csv) to w05_model.ipynb (trains the model and produces the comparison numbers)
 
 Random seed: random_state=42, used for both the train/test split and the Random Forest model — re-running produces the same split and the same results every time.
