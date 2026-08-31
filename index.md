@@ -63,7 +63,7 @@ What the errors look like: the baseline's mistakes trace back to relying on one 
 
 ## 6. Interpretation
 
-What the model found: impressions_90d was by far the most useful signal (importance score 0.041), followed by avg_position (0.019). ctr — the one signal the whole baseline rule was built on, barely mattered (0.001). Content type and competition level added almost nothing, and a couple even slightly hurt the model.
+What the model found: impressions_90d was by far the most useful signal (importance score 0.041), followed by avg_position (0.019). ctr, the one signal the whole baseline rule was built on, barely mattered (0.001). Content type and competition level added almost nothing, and a couple even slightly hurt the model.
 
 The surprise: the baseline rule leans entirely on CTR, but the model found CTR nearly useless on its own. This matches something already noticed while building the baseline, pages with zero CTR all scored identically until impressions were added as a tiebreaker to tell strong evidence apart from thin evidence. The model reached the same conclusion independently.
 
@@ -81,7 +81,7 @@ Limits: the system currently only flags one type of problem. Detecting other iss
 
 ## 8. Reproducibility
 
-1) git clone https://github.com/shah833/Flyrank-ML-Internship
+1) git clone [https://github.com/shah833/Flyrank-ML-Internship](https://github.com/shah833/Flyrank-ML-Internship)
 
 2) pip install -r requirements.txt
 
